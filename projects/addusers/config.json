@@ -1,0 +1,14 @@
+{
+  "bpm": {
+    "userName":"onboarding-rest-user.fid@t055",
+    "password" : "DPTVNeKqbpHijcgXXVCZMgUpgRs7EmkvEZCBaYYv",
+    "host": "saphec.bpm.ibmcloud.com",
+    "suffix" : "bpm/run"
+  },
+  "bluepages": {
+    "hostname" : "bluepages.ibm.com",
+    "searchUrl" : {
+      "notesMemberSearch" : "/BpHttpApisv3/slaphapi?ibmperson/(notesemail={notesemail}*).list,printable/byjson?mail&preferredidentity&jobresponsibilities&sn&givenname&notesemail"
+    }
+  }
+}

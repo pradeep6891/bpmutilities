@@ -1,0 +1,7 @@
+{
+  "hostname" : "bluepages.ibm.com",
+  "notesIdSearch" : "/BpHttpApisv3/slaphapi?ibmperson/(notesemail={notesemail}*).list,printable/byjson",
+  "emailSearch" : "/BpHttpApisv3/slaphapi?ibmperson/(mail={email}).list,printable/byjson",
+   "ibmserialnumberSearch":"/BpHttpApisv3/slaphapi?ibmperson/(ibmserialnumber={ibmserialnumber}).list,printable/byjson"
+
+}

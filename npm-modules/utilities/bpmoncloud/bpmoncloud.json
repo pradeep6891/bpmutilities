@@ -1,0 +1,5 @@
+{
+  "userExists": "/bpm/portal/rest/v1/UserProvisioningService.json/{userName}",
+  "addUser": "/bpm/portal/rest/v1/UserProvisioningService.json",
+  "deleteUser": "/bpm/portal/rest/v1/UserProvisioningService.json/{userName}"
+}

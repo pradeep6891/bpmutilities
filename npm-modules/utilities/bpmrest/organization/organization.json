@@ -1,0 +1,6 @@
+{
+  "updateGroupUser" : "/rest/bpm/wle/v1/group/{groupName}?action={action}&user={userName}&parts={returnParts}",
+  "updatePreferences":"/rest/bpm/wle/v1/user/{userId}?action=setPreference&key={preferenceKey}&value={value}",
+  "getAllUsers":"/rest/bpm/wle/v1/users?includeTaskExperts=false&sort=true&includeInternalMemberships=false&refreshUser=false&parts=none"
+    
+}

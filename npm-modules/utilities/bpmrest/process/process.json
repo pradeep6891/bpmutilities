@@ -1,0 +1,4 @@
+{
+  "startProcess" : "/rest/bpm/wle/v1/process?action=start&bpdId={bpdId}&processAppId={processAppId}",
+  "currentState" : "/rest/bpm/wle/v1/process/{instanceId}"
+}

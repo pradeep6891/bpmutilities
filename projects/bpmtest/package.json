@@ -1,0 +1,15 @@
+{
+  "name": "@o2cil/bpmtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm install && mocha -b test-bpm"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@o2cil/utilities": "file:../../npm-modules/utilities"
+  }
+}

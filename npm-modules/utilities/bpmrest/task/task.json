@@ -1,0 +1,3 @@
+{
+  "finishTask" : "/rest/bpm/wle/v1/task/{taskId}?action=finish"
+}

@@ -1,0 +1,124 @@
+{
+  "bpm": {
+    "userName":"onboarding-rest-user.fid@t055",
+    "password" : "DPTVNeKqbpHijcgXXVCZMgUpgRs7EmkvEZCBaYYv",
+    "host": "saphec.bpm.ibmcloud.com",
+    "suffix" : "/bpm/dev"
+  },
+  "processId" : "25.4649a28a-59c9-4621-b29f-33f9db0e8290",
+  "processAppId" : "2066.89d76171-458c-4f51-953e-2d7b5a379a91",
+  "mapping" : {
+    "Submit New Request" : [
+        {
+          "name" : "context",
+          "value" : "context"
+        },
+        {
+          "name" : "cancelCase",
+          "value" : "cancelCase"
+        }
+      ],
+    "Verify HANA Capacity" : [
+      {
+        "name" : "mcabReqData",
+        "value" : "mcabReqData",
+        "setters" : [{
+          "name" : "isQAReqNew",
+          "value": "**maintain**"
+        }]
+      }
+    ],
+    "Review Capacity Availability" : [
+      {
+        "name" : "mcabReqData",
+        "value" : "mcabReqData"
+      },
+      {
+        "name" : "revalidateCapacity",
+        "value" : "revalidateCapacity"
+      },
+      {
+        "name" : "skipCMSValidation",
+        "value" : "skipCMSValidation"
+      },
+      {
+        "name" : "skipReadyNowValidation",
+        "value" : "skipReadyNowValidation"
+      },
+      {
+        "name" : "isRequestCDD",
+        "value" : "isRequestCDD"
+      },
+      {
+        "name" : "isRequestQA",
+        "value" : "isRequestQAß"
+      }
+    ],
+    "Schedule Review Meeting for MCAB Capacity Validation" : [
+      {
+        "name" : "mcabReqData",
+        "value" : "mcabReqData"
+      },
+      {
+        "name" : "programManager",
+        "value" : "programManager"
+      },
+      {
+        "name" : "scheduleReviewDateStr",
+        "value" : "scheduleReviewDateStr"
+      }
+    ],
+    "MCAB Capacity Validation" : [
+      {
+        "name" : "mcabReqData",
+        "value" : "mcabReqData"
+      },
+      {
+        "name" : "revalidateCapacity",
+        "value" : "revalidateCapacity"
+      },
+      {
+        "name" : "requestCDD",
+        "value" : "requestCDD"
+      },
+      {
+        "name" : "requestSA",
+        "value" : "requestSA"
+      }
+    ],
+    "Select the Focus Areas for CDD" : [
+      {
+        "name" : "mcabReqData",
+        "value" : "mcabReqData"
+      },
+      {
+        "name" : "skipFocusAreaValidation",
+        "value" : "skipFocusAreaValidation"
+      },
+      {
+        "name" : "isMCABQARequested",
+        "value" : "isMCABQARequested"
+      }
+    ],
+    "Validate and Approve CDD Focus Area" : [
+      {
+        "name" : "focusArea",
+        "value" : "focusArea"
+      }
+    ],
+    "Review Focus Area Responses" : [
+      {
+        "name" : "mcabReqData",
+        "value" : "mcabReqData"
+      },
+      {
+        "name" : "isReturn",
+        "value" : "isReturn"
+      },
+      {
+        "name" : "isReturnFocalArea",
+        "value" : "isReturnFocalArea"
+      }
+    ]
+  }
+}
