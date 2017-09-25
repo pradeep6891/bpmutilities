@@ -1,9 +1,9 @@
 {
   "bpm": {
-    "userName":"onboarding-rest-user.fid@t055",
-    "password" : "DPTVNeKqbpHijcgXXVCZMgUpgRs7EmkvEZCBaYYv",
-    "host": "saphec.bpm.ibmcloud.com",
-    "suffix" : "/bpm/dev"
+    "userName":<<username>>,
+    "password" : <<password>>,
+    "host": <<hostname>>,
+    "suffix" : "bpm/run"
   },
   "processId" : "25.4649a28a-59c9-4621-b29f-33f9db0e8290",
   "processAppId" : "2066.89d76171-458c-4f51-953e-2d7b5a379a91",
