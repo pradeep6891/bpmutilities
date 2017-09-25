@@ -1,8 +1,8 @@
 {
   "bpm": {
-    "userName":"onboarding-rest-user.fid@t055",
-    "password" : "DPTVNeKqbpHijcgXXVCZMgUpgRs7EmkvEZCBaYYv",
-    "host": "saphec.bpm.ibmcloud.com",
+    "userName":<<username>>,
+    "password" : <<password>>,
+    "host": <<hostname>>,
     "suffix" : "bpm/run"
   },
   "bluepages": {
